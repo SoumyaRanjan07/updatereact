@@ -3,6 +3,7 @@ import './App.css';
 import Homec from "./Home";
 import Profile from "./Profile"
 import State from "./State";
+import Event from "./Event"
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,8 @@ function App() {
           < Homec/>
            <Profile text="Hello"/>
           <State />
+          <Event/>
+
 
       </header>
     </div>
