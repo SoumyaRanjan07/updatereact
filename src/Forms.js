@@ -1,4 +1,5 @@
 import React from 'react'
+import {Button} from 'react-bootstrap'
 export default class Forms extends React.Component {
     constructor() {
         super()
@@ -46,7 +47,7 @@ export default class Forms extends React.Component {
                 <input type='pwd' name='pwd' size='40' onChange={(e) => { this.setState({ pwd: e.target.value }) }} />
                 <p style={{ color: "red", fontSize: "14px" }}>{this.state.pwderr}</p>
                 <br></br>
-                <button style={{ color: 'green' }} size='20' onClick={() => this.submit()}>Submit </button>
+                <Button  >Submit </Button>
             </div>
         )
     }
